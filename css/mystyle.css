@@ -1,0 +1,104 @@
+/***************************
+****************************
+Deseigned By Sadeeq Hamza
+Material Design Web Developer CV Template
+Based On Materiazile Framework
+http://materializecss.com/
+****************************
+***************************/
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 800px) {}
+
+#sideImage {
+    max-height: 80%;
+    width: 100%;
+}
+
+.nav ul a {
+    font-size: 25px!important;
+}
+
+.topNav {
+    height: 122px;
+}
+
+.nav-wrapper {
+    line-height: 122px;
+}
+
+.pad-bottom {
+    padding-bottom: 20px!important;
+}
+
+.mar-top {
+    margin-top: 20px!important;
+}
+
+.button-collapse {
+    line-height: 140px;
+    margin-left: 20px;
+    left: 20px;
+}
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 5;
+    -moz-column-gap: 10px;
+    column-count: 5;
+    column-gap: 10px;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+
+@media (max-width: 1200px) {
+    #photos {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    #photos {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    #photos {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    #photos {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
